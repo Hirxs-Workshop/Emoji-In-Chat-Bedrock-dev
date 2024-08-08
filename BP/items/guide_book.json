@@ -1,0 +1,35 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "eic:emojipedia_book",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "emojipedia_book"
+			},
+			"minecraft:creative_category": {
+				"parent": "none"
+			},
+			"minecraft:display_name": {
+				"value": "Emojipedia Book§r§9\nClarify your doubts with this guide book"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "eic:book"
+				}
+			}
+		},
+		"events": {
+			"eic:book": {
+				"run_command": {
+					"target": "holder",
+					"command": [
+						"scriptevent eic:book"
+					]
+				}
+			}
+		}
+	}
+}

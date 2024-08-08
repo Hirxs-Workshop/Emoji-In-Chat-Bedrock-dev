@@ -1,0 +1,11 @@
+{
+    "resource_pack_name": "bridgeRP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "emojipedia_book": {
+            "textures": [
+                "textures/items/emojipedia_book"
+            ]
+        }
+    }
+}

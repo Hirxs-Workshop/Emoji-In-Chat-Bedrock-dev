@@ -1,0 +1,60 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "(BETA #3) Emojis-In-Chat - Hirx's",
+		"description": "Make your chat more lively by using emojis from your keyboard to interact!",
+		"uuid": "4562171c-c2c9-435d-979f-d97a650e5c1c",
+		"version": [
+			0,
+			0,
+			3
+		],
+		"min_engine_version": [
+			1,
+			20,
+			80
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"uuid": "4d61d972-5428-4dd7-b862-2a10aafd215c",
+			"version": [
+				0,
+				0,
+				3
+			],
+			"language": "javascript",
+			"entry": "scripts/emoji_loader.js"
+		}
+	],
+	"capabilities": [],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"uuid": "c29ff1b9-be7b-4f35-b525-05724adef5ae",
+			"version": [
+				0,
+				0,
+				3
+			]
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.7.32"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	}
+}
