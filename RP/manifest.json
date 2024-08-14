@@ -1,33 +1,9 @@
 {
 	"format_version": 2,
-	"header": {
-		"name": "(BETA #3.1) Emojis-In-Chat - Hirx's",
-		"description": "Make your chat more lively by using emojis from your keyboard to interact!",
-		"uuid": "c29ff1b9-be7b-4f35-b525-05724adef5ae",
-		"version": [
-			0,
-			0,
-			31
-		],
-		"min_engine_version": [
-			1,
-			20,
-			80
-		]
-	},
-	"modules": [
-		{
-			"description": "Make your chat more lively by using emojis from your keyboard to interact!",
-			"type": "resources",
-			"uuid": "beb6b6e4-1119-4e33-bcab-5768ffc7d949",
-			"version": [
-				0,
-				0,
-				31
-			]
-		}
-	],
 	"metadata": {
+		"authors": [
+			"Hirxs"
+		],
 		"generated_with": {
 			"bridge": [
 				"2.7.33"
@@ -36,5 +12,41 @@
 				"0.11.7"
 			]
 		}
-	}
+	},
+	"header": {
+		"name": "Fabulous Furnished - BETA #4 - Hirx's",
+		"description": "Make your world fabulous with fabulous furniture! More than 30+ blocks with more than 200+ variations available!",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "a10e01d2-5913-4171-a1a5-748f912fcecc",
+		"version": [
+			1,
+			4,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "f1b58ce2-0833-4a4a-8eeb-ae8024953676",
+			"version": [
+				1,
+				4,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "78be9f2f-f073-42a1-b95d-5f9d9276a07d",
+			"version": [
+				1,
+				4,
+				0
+			]
+		}
+	]
 }
