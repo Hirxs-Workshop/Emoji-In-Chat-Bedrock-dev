@@ -1,3 +1,3 @@
 |               Name               | Character |                     In game                    |
 |:--------------------------------:|:-------:|:----------------------------------------------:|
-|             grinning             |     😀     |            ![](./emojis_list/grinning.png)            |
+|             grinning             |     😀     |            ![](./emojis_list/github/grinning.png)            |
