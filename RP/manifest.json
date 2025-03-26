@@ -1,18 +1,18 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "(BETA #3.1) Emojis-In-Chat - Hirx's",
+		"name": "(BETA #3.6) Emojis-In-Chat - Hirx's",
 		"description": "Make your chat more lively by using emojis from your keyboard to interact!",
 		"uuid": "c29ff1b9-be7b-4f35-b525-05724adef5ae",
 		"version": [
 			0,
 			0,
-			31
+			7
 		],
 		"min_engine_version": [
 			1,
-			20,
-			80
+			21,
+			70
 		]
 	},
 	"modules": [
@@ -23,18 +23,8 @@
 			"version": [
 				0,
 				0,
-				31
+				7
 			]
 		}
-	],
-	"metadata": {
-		"generated_with": {
-			"bridge": [
-				"2.7.33"
-			],
-			"dash": [
-				"0.11.7"
-			]
-		}
-	}
+	]
 }

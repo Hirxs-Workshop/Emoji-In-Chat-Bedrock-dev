@@ -1,224 +1,7 @@
 import { system, world } from '@minecraft/server';
-import * as MC from '@minecraft/server';
-import * as server from '@minecraft/server';
-import { ActionFormData } from '@minecraft/server-ui';
-import 'emoji_pedia_cc';
 
 const Lang = {
     'emojis': {
-        // 0xE3
-        // 00 - 0F
-        '😀': '',
-        '😃': '',
-        '😄': '',
-        '😁': '',
-        '😆': '',
-        '🥹': '',
-        '😅': '',
-        '😂': '',
-        '🤣': '',
-        '🥲': '',
-        '☺️': '',
-        '😊': '',
-        '😇': '',
-        '🙂': '',
-        '🙃': '',
-        '😉': '',
-        // 10 - 1F
-        '😌': '',
-        '😍': '',
-        '🥰': '',
-        '😘': '',
-        '😗': '',
-        '😙': '',
-        '😚': '',
-        '😋': '',
-        '😛': '',
-        '😝': '',
-        '😜': '',
-        '🤪': '',
-        '🤨': '',
-        '🧐': '',
-        '🤓': '',
-        '😎': '',
-        // 20 - 2F
-        '🥸': '',
-        '🤩': '',
-        '🥳': '',
-        '😏': '',
-        '😒': '',
-        '😞': '',
-        '😔': '',
-        '😟': '',
-        '😕': '',
-        '🙁': '',
-        '☹️': '',
-        '😣': '',
-        '😖': '',
-        '😫': '',
-        '😩': '',
-        '🥺': '',
-        // 30 - 3F
-        '😢': '',
-        '😭': '',
-        '😤': '',
-        '😠': '',
-        '😡': '',
-        '🤬': '',
-        '🤯': '',
-        '😳': '',
-        '🥵': '',
-        '🥶': '',
-        '😶‍🌫️': '',
-        '😱': '',
-        '😨': '',
-        '😰': '',
-        '😥': '',
-        '😓': '',
-        // 40 - 4F
-        '🤗': '',
-        '🤔': '',
-        '🫣': '',
-        '🤭': '',
-        '🫢': '',
-        '🫡': '',
-        '🤫': '',
-        '🫠': '',
-        '🤥': '',
-        '😶': '',
-        '🫥': '',
-        '😐': '',
-        '🫤': '',
-        '😑': '',
-        '🫨': '',
-        '😬': '',
-        // 50 - 5F
-        '🙄': '',
-        '😯': '',
-        '😦': '',
-        '😧': '',
-        '😮': '',
-        '😲': '',
-        '🥱': '',
-        '😴': '',
-        '🤤': '',
-        '😪': '',
-        ':face_exhaling:': '',
-        '😵': '',
-        ':face_with_spiral_eyes:': '',
-        '🤐': '',
-        '🥴': '',
-        '🤢': '',
-        // 60 - 6F
-        '🤮': '',
-        '🤧': '',
-        '😷': '',
-        '🤒': '',
-        '🤕': '',
-        '🤑': '',
-        '🤠': '',
-        '😈': '',
-        '👿': '',
-        '👹': '',
-        '👺': '',
-        '🤡': '',
-        '💩': '',
-        '👻': '',
-        '💀': '',
-        '☠️': '',
-        // 70 - 7F
-        '👽': '',
-        '👾': '',
-        '🤖': '',
-        '🎃': '',
-        '😺': '',
-        '😸': '',
-        '😹': '',
-        '😻': '',
-        '😼': '',
-        '😽': '',
-        '🙀': '',
-        '😿': '',
-        '😾': '',
-        '🤝': '',
-        '🫶': '',
-        '🤲': '',
-        //80 - 8F
-        '👐': '',
-        '🙌': '',
-        '👏': '',
-        '👍': '',
-        '👎': '',
-        '👊': '',
-        '✊': '',
-        '🤛': '',
-        '🤜': '',
-        '🫷': '',
-        '🫸': '',
-
-        // Unsorted
-        '👋': '',
-        '🙏': '',
-        '💋': '',
-        '👄': '',
-        '🫦': '',
-        '🦷': '',
-        '👅': '',
-        '👁️': '',
-        '👀': '',
-        '🗿': '',
-        '🐱': '',
-        '🗣️': '',
-        '👈': '',
-        '👉': '',
-        '🔥': '',
-        '🍎': '',
-        '🍍': '',
-
-        // Custom Emojis
-        ':pog:': '',
-        ':tilin:': '',
-        ':purple_guy:': '',
-        ':mewing:': '',
-        ':oreo:': '',
-        ':silly_face:': '',
-        ':aw_man:': '',
-        ':cringe:': '',
-        ':traumatized:': '',
-
-        // Cubes
-        ':grass:': '',
-        ':dirt:': '',
-        ':oak_log:': '',
-        ':oak_planks:': '',
-        ':stone:': '',
-        ':cobblestone:': '',
-        ':sand:': '',
-        ':gravel:': '',
-        ':bricks:': '',
-        ':netherrack:': '',
-        ':soul_sand:': '',
-        ':glow_stone:': '',
-        ':obsidian:': '',
-        ':crying_obsidian:': '',
-        ':glass:': '',
-        ':beacon:': '',
-        ':crafting_table:': '',
-        ':furnance:': '',
-        ':chest:': '',
-        ':ender_chest:': '',
-        ':redstone_lamp': '',
-        ':redstone_lamp_lit': '',
-        ':tnt:': '',
-        ':bedrock:': '',
-        ':command_block:': '',
-        ':missing_texture:': '',
-
-
-
-        // Emojis names
-        // 0xE3
-        // 00 - 0F
         ':grinning:': '',
         ':smiley:': '',
         ':smile:': '',
@@ -364,7 +147,8 @@ const Lang = {
         ':right_facing_fist:': '',
         ':leftwards_pushing_hand:': '',
         ':rightwards_pushing_hand:': '',
-
+        ':face_exhaling:': '',
+        ':face_with_spiral_eyes:': '',
         // Unsorted
         ':wave:': '',
         ':pray:': '',
@@ -383,10 +167,58 @@ const Lang = {
         ':fire:': '',
         ':apple:': '',
         ':pineapple:': '',
-        ':sticker_test:': '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
-        ':bonnie_sticker:': '\n\n\n\n\n\n\n\n\n\n\n\n\n\n',
-
+        // emojiL
+        ':face_exhaling:': '',
+        ':face_with_spiral_eyes:': '',
+        ':pog:': '',
+        ':tilin:': '',
+        ':purple_guy:': '',
+        ':mewing:': '',
+        ':oreo:': '',
+        ':silly_face:': '',
+        ':aw_man:': '',
+        ':cringe:': '',
+        ':traumatized:': '',
+        // Cubes
+        ':grass:': '',
+        ':dirt:': '',
+        ':oak_log:': '',
+        ':oak_planks:': '',
+        ':stone:': '',
+        ':cobblestone:': '',
+        ':sand:': '',
+        ':gravel:': '',
+        ':bricks:': '',
+        ':netherrack:': '',
+        ':soul_sand:': '',
+        ':glow_stone:': '',
+        ':obsidian:': '',
+        ':crying_obsidian:': '',
+        ':glass:': '',
+        ':beacon:': '',
+        ':crafting_table:': '',
+        ':furnance:': '',
+        ':chest:': '',
+        ':ender_chest:': '',
+        ':redstone_lamp': '',
+        ':redstone_lamp_lit': '',
+        ':tnt:': '',
+        ':bedrock:': '',
+        ':command_block:': '',
+        ':missing_texture:': '',
+    'list': function (emojiL = false) {
+        let emojisList = [];
+            Object.keys(Lang.emojis).forEach(key => {
+                if (key === 'list') { return; };
+                if (emojiL === false && key.startsWith('eic') === true) { return; };
+                if (emojiL === true && key.startsWith('eic') === false) { return; };
+                emojisList.push([`§r${Lang.emojis[key]} §7- ${key}`]);
+            });
+            return `§6§lAll emojis available:\n\n${emojisList.join('\n')}\n\n§f(!) This list of emojis includes more than 191 emojis`;
+    
+        },
     },
+    
     'translateEmojis': function (string) {
         Object.keys(Lang.emojis).forEach(key => {
             if (key === 'list') { return; };
@@ -396,32 +228,7 @@ const Lang = {
     },
 };
 
-//generate custom emojis
-for (let i = 14; i < 257; i++) {
-    Lang.emojis[`c-${i}`] = String.fromCharCode(parseInt(`0xE1${Number(i).toString(16)}`));
-};
-
-
-MC.world.beforeEvents.chatSend.subscribe(event => {
-    event.cancel = true;
-    let content = event.message;
-    //Commands
-    if (content === '#emojis') {
-        event.sender.sendMessage(Lang.emojis.list(false));
-        return;
-    }
-    else if (content === '#custom emojis') {
-        event.sender.sendMessage(Lang.emojis.list(true));
-        return;
-    };
-    //Emoji Translation
-    content = Lang.translateEmojis(content);
-    MC.system.run(() => {
-        MC.world.sendMessage(`<${event.sender.name}> ${content}`);
-    });
-});
-
-MC.system.runInterval(
+system.runInterval(
     () => {
         world.getAllPlayers().forEach(
             (player) => {
@@ -449,103 +256,20 @@ MC.system.runInterval(
     },
 );
 
-/// Guide Book
+for (let i = 14; i < 257; i++) {
+    Lang.emojis[`eic${i}`] = String.fromCharCode(parseInt(`0xE3${Number(i).toString(16)}`));
+};
 
-server.system.afterEvents.scriptEventReceive.subscribe(result => {
-    if (result.id == "eic:firstJoin" && !result.sourceEntity.hasTag("eic")) {
-        firstJoin(result.sourceEntity)
+
+world.beforeEvents.chatSend.subscribe(event => {
+    event.cancel = true;
+    let content = event.message;
+    if (content === '-emojis list') {
+        event.sender.sendMessage(Lang.emojis.list(false));
+        return;
     }
-    else if (result.id == "eic:book") {
-        showBook(result.sourceEntity)
-    }
-})
-
-/**
-* @param {server.Entity} player
-*/
-function firstJoin(player) {
-    const firstJoin = new ActionFormData()
-        .title("Emoji-In-Chat | Welcome")
-        .body("Heyy Welcome!\nEnjoy the add-on and remember to check out the emoji guide so you don't miss out on the personalized emojis I have for you!\nEnjoy~")
-        .button("accessibility.button.close", "textures/icons/like")
-
-    player.runCommand("gamerule sendcommandfeedback false")
-    player.runCommand("give @s eic:emojipedia_book")
-    player.addTag("eic")
-
-    firstJoin.show(player).then(response => {
-
-        if (response.canceled) return;
-
-        switch (response.selection) {
-            case 0:
-                break;
-        }
-    })
-}
-
-function showBook(player) {
-    const showBook = new ActionFormData()
-        .title("Emojis-In-Chat | Guide")
-        .body("Do you need a little help knowing the name of certain emojis?")
-        .button("Classic Emojis!", "textures/icons/classic_emojis")
-        .button("Custom Emojis!", "textures/icons/custom_emojis")
-        .button("Cube Emojis!", "textures/icons/tnt")
-
-    showBook.show(player).then(response => {
-        if (response.canceled) return;
-
-        switch (response.selection) {
-            case 0:
-                viewClassicEmojis(player)
-                break;
-            case 1:
-                viewCustomEmojis(player)
-                break;
-            case 2:
-                viewCubeEmojis(player)
-                break;
-        }
-    })
-}
-
-function viewClassicEmojis(player) {
-    const viewClassicEmojis = new ActionFormData()
-        .title("Classic Emojis")
-        .body("Soon!")
-        .button("accessibility.button.back", "textures/icons/like");
-    viewClassicEmojis.show(player).then(response => {
-        if (!response.canceled) {
-            if (response.selection == 0) {
-                showBook(player)
-            }
-        }
-    })
-}
-
-function viewCustomEmojis(player) {
-    const viewCustomEmojis = new ActionFormData()
-        .title("Custom Emojis")
-        .body("Soon!")
-        .button("accessibility.button.back", "textures/icons/like");
-    viewCustomEmojis.show(player).then(response => {
-        if (!response.canceled) {
-            if (response.selection == 0) {
-                showBook(player)
-            }
-        }
-    })
-}
-function viewCubeEmojis(player) {
-    const viewCubeEmojis = new ActionFormData()
-        .title("Cube Emojis!")
-        .body("Soon!")
-        .button("accessibility.button.back", "textures/icons/like");
-    viewCubeEmojis.show(player).then(response => {
-        if (!response.canceled) {
-            if (response.selection == 0) {
-                showBook(player)
-            }
-        }
-    })
-}
+    content = Lang.translateEmojis(content);
+    system.run(() => {
+        world.sendMessage(`<${event.sender.name}> ${content}`);
+    });
+});
